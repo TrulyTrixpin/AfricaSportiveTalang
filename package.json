@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "jsdom": "^27.0.1",
+    "nodemailer": "^7.0.9",
+    "sqlite3": "^5.1.7"
+  },
+  "name": "sports-talang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+     "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

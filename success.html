@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Africa Sportive Talang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>"message"</h1>
+        <p>Welcome to Africa Sportive Talang!</p>
+        <a href="index.html">Go to Home Page</a>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const msg = params.get('msg');
+
+        if (msg === 'registered') {
+            document.getElementById('message').innerText = "Registered Successful";
+        } else if (msg === 'login') {
+            document.getElementById('message').innerText = "Login Successful";
+        } else {
+            document.getElementsById('message').innerText = "Welcome!";
+        }
+    </script>
+    
+</body>
+</html>
